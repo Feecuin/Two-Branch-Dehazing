@@ -33,6 +33,7 @@
 
 ## data
 Please download the corresponding  datasets and put them in the folder `./data/<datase_name>`.  (The train and valid split files are provided in `./data/<datase_name>`. )
+
 The `data` directory structure will be arranged as: (**Note**: please check it carefully)   
 ```
 data
@@ -134,7 +135,8 @@ bash test.sh
 ## Full-size Evaluation Results
 <table>
   <tr>
-    <th align="left">PSNR</th>
+    <th align="left">Dataset</th>
+    <th align="center">PSNR</th>
     <th align="center">SSIM</th>
     <th align="center">Entriopy</th>
     <th align="center">LPIPS</th>
