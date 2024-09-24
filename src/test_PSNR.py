@@ -25,16 +25,16 @@ dataset_name = args.dataset_name
 # --- Set dataset-specific hyper-parameters  --- #
 if dataset_name == 'NH':
     val_data_dir = './data/NH-HAZE/valid_NH/'
-    ckpts_dir = './ckpts/NH-20.10ssim6716.pt'
+    ckpts_dir = './ckpts/NH/NH-20.10ssim6716.pt'
 elif dataset_name == 'dense': 
     val_data_dir = './data/dataset/Dense-Haze/valid_dense'
-    ckpts_dir = './ckpts/DENSE-16.42ssim0.5235.pt'
+    ckpts_dir = './ckpts/dense/DENSE-16.42ssim0.5235.pt'
 elif dataset_name == 'indoor': 
     val_data_dir = ''
     ckpts_dir = ''
 elif dataset_name == '6k': 
     val_data_dir = './data/6K/test/'
-    ckpts_dir = './ckpts/6K-30.20ssim0.9643.pt'
+    ckpts_dir = './ckpts/6k/6K-30.20ssim0.9643.pt'
 else:
     val_data_dir = args.test_image_dir
     ckpts_dir =  args.ckpts_dir
