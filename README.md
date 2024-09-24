@@ -37,11 +37,6 @@ Please download the corresponding  datasets and put them in the folder `./data/<
 The `data` directory structure will be arranged as: (**Note**: please check it carefully)   
 ```
 data
-   |- classic_test_image
-      |- input
-         |- canyon.png
-         |- canyon1.png
-      |- val_list.txt
    |-Dense-Haze
       |- train_dense
          |- haze
@@ -96,6 +91,20 @@ data
   </tr>
 </tbody>
 </table>
+
+Then,  place the models to `ckpts/<dataset_name>` directory, separately.
+
+The directory structure will be arranged as:
+```
+ckpts
+   |- Dense
+      |- DENSE-16.42ssim0.5235.pt  
+   |- NH
+      |- NH-20.10ssim6716.pt.pt
+   |- 6k
+      |- 6K-30.20ssim0.9643.pt
+
+```
 
 ## Training
 See ` python src/train.py --h` for list of optional arguments, or `train.sh` for examples.
