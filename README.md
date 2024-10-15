@@ -1,7 +1,7 @@
 # Interaction-Guided-Two-Branch-Image-Dehazing-Network
  <b>Huichun Liu , Xiaosong Li<sup>*</sup>, Tianshu Tan </b>  
  IEEE/CVF Asian Conference on Computer Vision (**ACCV2024**)<br>
- Paper will be available on arXiv
+ [![Paper](https://img.shields.io/badge/cs.CV-2410.10121-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2410.10121)
 <hr />
 
 
