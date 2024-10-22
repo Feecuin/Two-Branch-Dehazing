@@ -172,7 +172,16 @@ bash test.sh
   </tr>
 </table>
 
-
+## Citation
+If you find this repo useful, please give us a star and consider citing our papers:
+```bibtex
+@article{liu2024interaction,
+  title={Interaction-Guided Two-Branch Image Dehazing Network},
+  author={Liu, Huichun and Li, Xiaosong and Tan, Tianshu},
+  journal={arXiv preprint arXiv:2410.10121},
+  year={2024}
+}
+```
 
 ## Contact
 If you have any question, please feel free to contact us via `Feecuin@outlook.com`.
