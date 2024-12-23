@@ -4,6 +4,7 @@
  **Arxiv Link:** **https://arxiv.org/abs/2410.10121**
  
  [![Paper](https://img.shields.io/badge/cs.CV-2410.10121-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2410.10121) 
+ [![paper](https://img.shields.io/badge/Paper-ACCV2024-brightgreen)](https://openaccess.thecvf.com/content/ACCV2024/papers/Liu_Interaction-Guided_Two-Branch_Image_Dehazing_Network_ACCV_2024_paper.pdf)
 <hr />
 
 ## Network Architecture
@@ -175,6 +176,14 @@ bash test.sh
 ## Citation
 If you find this repo useful, please give us a star and consider citing our papers:
 ```bibtex
+@inproceedings{liu2024interaction,
+  title={Interaction-Guided Two-Branch Image Dehazing Network},
+  author={Liu, Huichun and Li, Xiaosong and Tan, Tianshu},
+  booktitle={Proceedings of the Asian Conference on Computer Vision},
+  pages={4069--4084},
+  year={2024}
+}
+
 @article{liu2024interaction,
   title={Interaction-Guided Two-Branch Image Dehazing Network},
   author={Liu, Huichun and Li, Xiaosong and Tan, Tianshu},
